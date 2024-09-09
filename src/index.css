@@ -22,7 +22,7 @@ code {
 .container {
   width: 100%;
   min-height: 100vh;
-  background: #000000;
+  background: linear-gradient(315deg,#0248c0, black);
   padding: 10px;
 }
 
@@ -61,10 +61,6 @@ code {
   padding-top: 5px;
   padding-bottom: 5px;
   transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.input:hover {
-  opacity: 0.5
 }
 
 .button {

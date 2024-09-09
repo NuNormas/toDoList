@@ -178,12 +178,12 @@ function App() {
                                     ref={editInputRef}
                                 />
                             ) : (
-                            <li
-                                className={currentTask.status}
-                                onClick={() => editProcess(i, currentTask.value)}
-                            >
-                                {currentTask.value}
-                            </li>
+                                <li
+                                    className={currentTask.status}
+                                    onClick={() => editProcess(i, currentTask.value)}
+                                >
+                                    {currentTask.value}
+                                </li>
                             )}
                             <button onClick={() => deleteTask(i)} className="delete-button"> 
                                 <img
