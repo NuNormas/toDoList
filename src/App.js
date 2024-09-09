@@ -196,7 +196,11 @@ function App() {
                 })}
             </ul>
             <div className="additional-buttons">
-                <button className="save-button" onClick={saveTaskList}>
+                <button
+                    className="save-button"
+                    onClick={saveTaskList}
+                    disabled={taskList.length === 0}
+                >
                     Save toDoList
                 </button>
                 <label

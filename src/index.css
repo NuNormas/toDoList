@@ -186,11 +186,11 @@ input[type="checkbox"] {
   border-radius: 10px;
   font-size: 17px;
   padding: 5px;
-  cursor: pointer;
 }
 
-.save-button:hover {
+.save-button:hover:not(:disabled) {
   background-color: #D3D3D3;
+  cursor: pointer;
 }
 
 .download-button {
